@@ -12,7 +12,8 @@
   "lint-staged": {
     "*.js": [
       "pretty-quick --staged",
-      "eslint --fix"
+      "eslint --fix",
+      "git add"
     ]
   },
   "husky": {
