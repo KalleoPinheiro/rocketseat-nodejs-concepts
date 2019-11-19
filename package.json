@@ -12,13 +12,12 @@
   "lint-staged": {
     "*.js": [
       "pretty-quick --staged",
-      "eslint --fix",
-      "git add"
+      "eslint --fix"
     ]
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "pretty-quick --staged"
     }
   },
   "dependencies": {
