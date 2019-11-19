@@ -9,10 +9,12 @@
   "scripts": {
     "start": "nodemon ./server/bin/server.js"
   },
-  "lint-staged": [
-    "pretty-quick --staged",
-    "eslint --fix"
-  ],
+  "lint-staged": {
+    "*.js": [
+      "pretty-quick --staged",
+      "eslint --fix"
+    ]
+  },
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
@@ -28,6 +30,7 @@
     "husky": "^3.1.0",
     "lint-staged": "^10.0.0-beta.3",
     "nodemon": "^1.19.4",
+    "prettier": "^1.19.1",
     "pretty-quick": "^2.0.1"
   }
 }
