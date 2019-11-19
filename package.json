@@ -7,7 +7,7 @@
   "author": "Windson Kalléo Pinheiro da Rocha <kalleopinheiro@hotmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "nodemon ./server/bin/server.js"
   },
   "lint-staged": [
     "pretty-quick --staged",
