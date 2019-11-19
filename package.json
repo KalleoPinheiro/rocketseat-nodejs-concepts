@@ -9,16 +9,17 @@
   "scripts": {
     "start": "nodemon ./server/bin/server.js"
   },
-  "lint-staged": {
-    "*.js": [
-      "pretty-quick --staged",
-      "eslint --fix"
-    ]
-  },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "pretty-quick --staged && lint-staged"
     }
+  },
+  "lint-staged": {
+    "*.js": [
+      "prettier --write",
+      "eslint --fix",
+      "git add"
+    ]
   },
   "dependencies": {
     "eslint": "^6.6.0",
