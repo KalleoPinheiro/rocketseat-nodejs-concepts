@@ -1,36 +1,18 @@
 {
-  "name": "rocketseat-nodejs-concepts",
+  "name": "rocketseat-challenge-01",
   "version": "1.0.0",
-  "description": "\tChallenge 01 - Bootcamp Rocketseat - NodeJS concepts",
+  "description": "Training with rocketseat challenge number one",
   "main": "index.js",
-  "repository": "https://github.com/KalleoPinheiro/rocketseat-nodejs-concepts.git",
-  "author": "Windson Kalléo Pinheiro da Rocha <kalleopinheiro@hotmail.com>",
+  "repository": "https://github.com/KalleoPinheiro/rocketseat-challenge-01.git",
+  "author": "Kalleo Pinheiro <windson.rocha@zup.com.br>",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon ./server/bin/server.js"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "pretty-quick --staged && lint-staged"
-    }
-  },
-  "lint-staged": {
-    "*.js": [
-      "prettier -c --write",
-      "eslint --fix"
-    ]
+    "dev": "nodemon ./bin/server.js"
   },
   "dependencies": {
-    "eslint": "^6.6.0",
-    "eslint-config-airbnb-base": "^14.0.0",
-    "eslint-plugin-import": "2.18.2",
     "express": "^4.17.1"
   },
   "devDependencies": {
-    "husky": "^3.1.0",
-    "lint-staged": "^10.0.0-beta.3",
-    "nodemon": "^1.19.4",
-    "prettier": "^1.19.1",
-    "pretty-quick": "^2.0.1"
+    "nodemon": "^1.19.3"
   }
 }
