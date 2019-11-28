@@ -4,7 +4,7 @@
   "description": "Training with rocketseat challenge number one",
   "main": "index.js",
   "repository": "https://github.com/KalleoPinheiro/rocketseat-challenge-01.git",
-  "author": "Kalleo Pinheiro <windson.rocha@zup.com.br>",
+  "author": "Kalleo Pinheiro <kalleopinheiro@hotmail.com>",
   "license": "MIT",
   "scripts": {
     "dev": "nodemon ./bin/server.js"
