@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Training with rocketseat challenge number one",
   "main": "index.js",
-  "repository": "https://github.com/KalleoPinheiro/rocketseat-challenge-01.git",
+  "repository": "https://github.com/KalleoPinheiro/rocketseat-nodejs-concepts.git",
   "author": "Kalleo Pinheiro <kalleopinheiro@hotmail.com>",
   "license": "MIT",
   "scripts": {
